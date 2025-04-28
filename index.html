@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive JavaScript Playground</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Interactive JavaScript Playground</h1>
+
+    <!-- Button Click and Hover -->
+    <button id="changeTextBtn">Click Me!</button>
+
+    <div id="hoverDiv" class="hoverBox">Hover over me!</div>
+
+    <!-- Keypress detection -->
+    <input type="text" id="keyInput" placeholder="Type something...">
+    
+    <!-- Secret double-click and long press -->
+    <button id="secretBtn">Double Click or Long Press Me!</button>
+
+    <!-- Image Gallery -->
+    <div id="gallery">
+        <img class="galleryImg" src="https://via.placeholder.com/150" alt="Image 1">
+        <img class="galleryImg" src="https://via.placeholder.com/150" alt="Image 2">
+        <img class="galleryImg" src="https://via.placeholder.com/150" alt="Image 3">
+    </div>
+
+    <!-- Tabs -->
+    <div class="tabs">
+        <button class="tabButton" data-tab="tab1">Tab 1</button>
+        <button class="tabButton" data-tab="tab2">Tab 2</button>
+        <div class="tabContent" id="tab1">Content for Tab 1</div>
+        <div class="tabContent" id="tab2">Content for Tab 2</div>
+    </div>
+
+    <!-- Form Validation -->
+    <form id="form">
+        <input type="text" id="name" placeholder="Enter your name" required>
+        <input type="email" id="email" placeholder="Enter your email" required>
+        <input type="password" id="password" placeholder="Enter your password" required>
+        <button type="submit">Submit</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>

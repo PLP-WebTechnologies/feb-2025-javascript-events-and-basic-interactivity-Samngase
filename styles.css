@@ -1,0 +1,56 @@
+/* Basic Styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#hoverDiv {
+    width: 200px;
+    height: 100px;
+    margin: 20px auto;
+    background-color: lightgray;
+    line-height: 100px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.galleryImg {
+    width: 100px;
+    margin: 10px;
+}
+
+.tabContent {
+    display: none;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+}
+
+.tabs button {
+    margin: 10px;
+    padding: 10px;
+}
+
+/* Hover Effects */
+.hoverBox:hover {
+    background-color: #ffcc00;
+}
+
+button:focus {
+    outline: none;
+}
+
+button.clicked {
+    background-color: #ff9900;
+}
+
+/* Real-time form validation feedback */
+input:invalid {
+    border: 2px solid red;
+}
